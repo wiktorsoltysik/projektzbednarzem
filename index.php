@@ -30,7 +30,7 @@
         }
 
         if(@$_GET['akcja']=='usun'){
-            exec('net use Z: /delete /y', $wyjscie, $return);
+            exec('net use Z: /wspolny /2022A', $wyjscie, $return);
             header("location: ./");
         }
 
